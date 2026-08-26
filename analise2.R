@@ -1,1 +1,1 @@
-media <- mean(dados$Temp)
+media <- mean(dados$Temp, trim = 0.2)
